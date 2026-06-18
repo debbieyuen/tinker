@@ -23,6 +23,14 @@ Install Tinker
 ```bash
 uv pip install tinker
 ```
+Install Tinker Cookbook
+```bash
+uv pip install tinker tinker-cookbook
+```
+Install cookbook's [tutorials] extra
+```bash
+git clone https://github.com/thinking-machines-lab/tinker-cookbook.git
+```
 Then create a Tinker API key from the Tinker Console
 ```bash
 $env:TINKER_API_KEY="your_actual_api_key_here"
